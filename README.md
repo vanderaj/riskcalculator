@@ -5,3 +5,8 @@ This is what we use at Threat Intelligence to rate risks. It's loosely based upo
 some allowances for OSTMM 3 isms, such as attack chaining. 
 
 So no more guessing if stored XSS is really a big deal, calculate it!
+
+Code
+(C) 2015 Andrew van der Stock, andrew@threatintelligence.com 
+
+Licensed under the GPLv3. If you need a different license, please ask - I do not bite. 
