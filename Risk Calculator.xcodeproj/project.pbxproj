@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A997A9C1BF6DEC2005CD838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A997A9B1BF6DEC2005CD838 /* AppDelegate.m */; };
+		8A997A9F1BF6DEC2005CD838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A997A9E1BF6DEC2005CD838 /* main.m */; };
+		8A997AA21BF6DEC2005CD838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A997AA11BF6DEC2005CD838 /* ViewController.m */; };
+		8A997AA41BF6DEC2005CD838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A997AA31BF6DEC2005CD838 /* Assets.xcassets */; };
+		8A997AA71BF6DEC2005CD838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A997AA51BF6DEC2005CD838 /* Main.storyboard */; };
+		8A997AB21BF6DEC2005CD838 /* Risk_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A997AB11BF6DEC2005CD838 /* Risk_CalculatorTests.m */; };
+		8A997ABD1BF6DEC2005CD838 /* Risk_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A997ABC1BF6DEC2005CD838 /* Risk_CalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A997AAE1BF6DEC2005CD838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A997A8F1BF6DEC2005CD838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A997A961BF6DEC2005CD838;
+			remoteInfo = "Risk Calculator";
+		};
+		8A997AB91BF6DEC2005CD838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A997A8F1BF6DEC2005CD838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A997A961BF6DEC2005CD838;
+			remoteInfo = "Risk Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A997A971BF6DEC2005CD838 /* Risk Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Risk Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A997A9A1BF6DEC2005CD838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A997A9B1BF6DEC2005CD838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A997A9E1BF6DEC2005CD838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A997AA01BF6DEC2005CD838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A997AA11BF6DEC2005CD838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A997AA31BF6DEC2005CD838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A997AA61BF6DEC2005CD838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A997AA81BF6DEC2005CD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A997AAD1BF6DEC2005CD838 /* Risk CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Risk CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A997AB11BF6DEC2005CD838 /* Risk_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Risk_CalculatorTests.m; sourceTree = "<group>"; };
+		8A997AB31BF6DEC2005CD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A997AB81BF6DEC2005CD838 /* Risk CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Risk CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A997ABC1BF6DEC2005CD838 /* Risk_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Risk_CalculatorUITests.m; sourceTree = "<group>"; };
+		8A997ABE1BF6DEC2005CD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A997A941BF6DEC2005CD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AAA1BF6DEC2005CD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AB51BF6DEC2005CD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A997A8E1BF6DEC2005CD838 = {
+			isa = PBXGroup;
+			children = (
+				8A997A991BF6DEC2005CD838 /* Risk Calculator */,
+				8A997AB01BF6DEC2005CD838 /* Risk CalculatorTests */,
+				8A997ABB1BF6DEC2005CD838 /* Risk CalculatorUITests */,
+				8A997A981BF6DEC2005CD838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A997A981BF6DEC2005CD838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A997A971BF6DEC2005CD838 /* Risk Calculator.app */,
+				8A997AAD1BF6DEC2005CD838 /* Risk CalculatorTests.xctest */,
+				8A997AB81BF6DEC2005CD838 /* Risk CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A997A991BF6DEC2005CD838 /* Risk Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8A997A9A1BF6DEC2005CD838 /* AppDelegate.h */,
+				8A997A9B1BF6DEC2005CD838 /* AppDelegate.m */,
+				8A997AA01BF6DEC2005CD838 /* ViewController.h */,
+				8A997AA11BF6DEC2005CD838 /* ViewController.m */,
+				8A997AA31BF6DEC2005CD838 /* Assets.xcassets */,
+				8A997AA51BF6DEC2005CD838 /* Main.storyboard */,
+				8A997AA81BF6DEC2005CD838 /* Info.plist */,
+				8A997A9D1BF6DEC2005CD838 /* Supporting Files */,
+			);
+			path = "Risk Calculator";
+			sourceTree = "<group>";
+		};
+		8A997A9D1BF6DEC2005CD838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A997A9E1BF6DEC2005CD838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A997AB01BF6DEC2005CD838 /* Risk CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A997AB11BF6DEC2005CD838 /* Risk_CalculatorTests.m */,
+				8A997AB31BF6DEC2005CD838 /* Info.plist */,
+			);
+			path = "Risk CalculatorTests";
+			sourceTree = "<group>";
+		};
+		8A997ABB1BF6DEC2005CD838 /* Risk CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A997ABC1BF6DEC2005CD838 /* Risk_CalculatorUITests.m */,
+				8A997ABE1BF6DEC2005CD838 /* Info.plist */,
+			);
+			path = "Risk CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A997A961BF6DEC2005CD838 /* Risk Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A997AC11BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk Calculator" */;
+			buildPhases = (
+				8A997A931BF6DEC2005CD838 /* Sources */,
+				8A997A941BF6DEC2005CD838 /* Frameworks */,
+				8A997A951BF6DEC2005CD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Risk Calculator";
+			productName = "Risk Calculator";
+			productReference = 8A997A971BF6DEC2005CD838 /* Risk Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A997AAC1BF6DEC2005CD838 /* Risk CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A997AC41BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk CalculatorTests" */;
+			buildPhases = (
+				8A997AA91BF6DEC2005CD838 /* Sources */,
+				8A997AAA1BF6DEC2005CD838 /* Frameworks */,
+				8A997AAB1BF6DEC2005CD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A997AAF1BF6DEC2005CD838 /* PBXTargetDependency */,
+			);
+			name = "Risk CalculatorTests";
+			productName = "Risk CalculatorTests";
+			productReference = 8A997AAD1BF6DEC2005CD838 /* Risk CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A997AB71BF6DEC2005CD838 /* Risk CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A997AC71BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk CalculatorUITests" */;
+			buildPhases = (
+				8A997AB41BF6DEC2005CD838 /* Sources */,
+				8A997AB51BF6DEC2005CD838 /* Frameworks */,
+				8A997AB61BF6DEC2005CD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A997ABA1BF6DEC2005CD838 /* PBXTargetDependency */,
+			);
+			name = "Risk CalculatorUITests";
+			productName = "Risk CalculatorUITests";
+			productReference = 8A997AB81BF6DEC2005CD838 /* Risk CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A997A8F1BF6DEC2005CD838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew van der Stock";
+				TargetAttributes = {
+					8A997A961BF6DEC2005CD838 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8A997AAC1BF6DEC2005CD838 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A997A961BF6DEC2005CD838;
+					};
+					8A997AB71BF6DEC2005CD838 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A997A961BF6DEC2005CD838;
+					};
+				};
+			};
+			buildConfigurationList = 8A997A921BF6DEC2005CD838 /* Build configuration list for PBXProject "Risk Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A997A8E1BF6DEC2005CD838;
+			productRefGroup = 8A997A981BF6DEC2005CD838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A997A961BF6DEC2005CD838 /* Risk Calculator */,
+				8A997AAC1BF6DEC2005CD838 /* Risk CalculatorTests */,
+				8A997AB71BF6DEC2005CD838 /* Risk CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A997A951BF6DEC2005CD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A997AA41BF6DEC2005CD838 /* Assets.xcassets in Resources */,
+				8A997AA71BF6DEC2005CD838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AAB1BF6DEC2005CD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AB61BF6DEC2005CD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A997A931BF6DEC2005CD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A997AA21BF6DEC2005CD838 /* ViewController.m in Sources */,
+				8A997A9F1BF6DEC2005CD838 /* main.m in Sources */,
+				8A997A9C1BF6DEC2005CD838 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AA91BF6DEC2005CD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A997AB21BF6DEC2005CD838 /* Risk_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A997AB41BF6DEC2005CD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A997ABD1BF6DEC2005CD838 /* Risk_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A997AAF1BF6DEC2005CD838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A997A961BF6DEC2005CD838 /* Risk Calculator */;
+			targetProxy = 8A997AAE1BF6DEC2005CD838 /* PBXContainerItemProxy */;
+		};
+		8A997ABA1BF6DEC2005CD838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A997A961BF6DEC2005CD838 /* Risk Calculator */;
+			targetProxy = 8A997AB91BF6DEC2005CD838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A997AA51BF6DEC2005CD838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A997AA61BF6DEC2005CD838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A997ABF1BF6DEC2005CD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A997AC01BF6DEC2005CD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8A997AC21BF6DEC2005CD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A997AC31BF6DEC2005CD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A997AC51BF6DEC2005CD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Risk Calculator.app/Contents/MacOS/Risk Calculator";
+			};
+			name = Debug;
+		};
+		8A997AC61BF6DEC2005CD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Risk Calculator.app/Contents/MacOS/Risk Calculator";
+			};
+			name = Release;
+		};
+		8A997AC81BF6DEC2005CD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Risk Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A997AC91BF6DEC2005CD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Risk CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Greebo-Labs.Risk-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Risk Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A997A921BF6DEC2005CD838 /* Build configuration list for PBXProject "Risk Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A997ABF1BF6DEC2005CD838 /* Debug */,
+				8A997AC01BF6DEC2005CD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A997AC11BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A997AC21BF6DEC2005CD838 /* Debug */,
+				8A997AC31BF6DEC2005CD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A997AC41BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A997AC51BF6DEC2005CD838 /* Debug */,
+				8A997AC61BF6DEC2005CD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A997AC71BF6DEC2005CD838 /* Build configuration list for PBXNativeTarget "Risk CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A997AC81BF6DEC2005CD838 /* Debug */,
+				8A997AC91BF6DEC2005CD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A997A8F1BF6DEC2005CD838 /* Project object */;
+}
